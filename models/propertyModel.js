@@ -20,6 +20,7 @@ const propertyModel = mongoose.Schema({
       ],
     },
   ],
+  user: { type: String },
 });
 
 var Property = (module.exports = mongoose.model("property", propertyModel));
